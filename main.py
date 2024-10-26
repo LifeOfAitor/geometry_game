@@ -45,6 +45,8 @@ class GUI(Rectangle):
         # go to user_point
         myturtle.penup()
         myturtle.goto(user_point.x * scale, user_point.y * scale)
+        myturtle.pendown()
+        myturtle.dot(30, "blue")
 
 
 # Create rectangle object
